@@ -18,7 +18,7 @@ pom.xml
 */
 public class smsSendDEmo {
     public static void main(String[] args) {
-        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI4Ft6MN9A9zHJuncsxFyB", "DJVz4SkY2caqEBSWXnoUNcM7fByuFi");
+        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "*******", "****");
         IAcsClient client = new DefaultAcsClient(profile);
 
         CommonRequest request = new CommonRequest();
