@@ -5,15 +5,17 @@ public class TEST1 {
         System.out.println("测试代码");
     }
 
-    //小白新增方法1
+    //老鸟新增方法test1
     public void test1(){
-        for (int i = 0; i < 100; i++) {
-            System.out.println("i:"+i);
+        boolean is=true;
+        if(is){
+            System.out.println("test1");
         }
     }
 
-    //小白新增方法2
-    public void test2(){
-        System.out.println("test2");
+    //老鸟新增方法test3
+    public void test3(){
+        System.out.println("test3");
     }
+
 }
